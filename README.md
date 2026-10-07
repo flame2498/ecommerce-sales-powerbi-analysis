@@ -30,7 +30,7 @@ Star-schema model with a date dimension:
 - `orders` (1) → (*) `order_items`
 - `products` (1) → (*) `order_items`
 
-![Data Model](images/model_view.png)
+![Data Model](model_view.png)
 
 ## Tools
 Power BI, DAX
