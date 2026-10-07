@@ -23,5 +23,15 @@ and 1,500 order items (May 2025 – May 2026).
 - `Business_Insights.docx` – Findings
 - `Business_Recommendations.docx` – Recommendations
 
+## Data Model
+Star-schema model with a date dimension:
+- `customers` (1) → (*) `orders`
+- `DateTable` (1) → (*) `orders`
+- `orders` (1) → (*) `order_items`
+- `products` (1) → (*) `order_items`
+
+![Data Model](images/model_view.png)
+
 ## Tools
 Power BI, DAX
+ 
