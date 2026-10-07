@@ -32,6 +32,15 @@ Star-schema model with a date dimension:
 
 ![Data Model](model_view.png)
 
+## Data Cleaning
+Each table was checked for duplicate keys, orphaned foreign keys,
+invalid dates and inconsistent categories.
+
+![Customers](customers_cleaned.png)
+![Orders](orders_cleaned.png)
+![Order Items](order_items_cleaned.png)
+![Products](products_cleaned.png)
+
 ## Tools
 Power BI, DAX
  
